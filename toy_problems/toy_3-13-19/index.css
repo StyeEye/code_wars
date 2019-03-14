@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: orangered;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+header>img {
+    height: 30px;
+    border-radius: 30px;
+}
+
+.progression>h1 {
+    font-size: 30px;
+}
+
+.progression>img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+
+.progression {
+    display: inline-block;
+    width: 25vw;
+    vertical-align: top;
+    margin: 40px 10px 20px;
+}
+
+center {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+main, header {
+    float: left;
+    position: relative;
+    left: -50%;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
