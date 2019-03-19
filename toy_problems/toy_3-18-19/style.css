@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    text-align: center;
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+    background-color: red;
+}
+
+main {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+}
+
+.panel {
+    width: 50%;
+    height: 100%;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+.step {
+    background-color: green;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.panel > .first {
+    background-color: lightblue;
+}
+
+.panel > .second {
+    background-color: lightgreen;
+}
+
+.panel > .third {
+    background-color: lightpink;
+}
+
+.panel > .fourth {
+    background-color: teal;
+}
+
+.panel > .fifth {
+    background-color: goldenrod;
+}
